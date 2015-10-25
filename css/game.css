@@ -1,0 +1,25 @@
+.background     {background-image: url(http://i.imgur.com/bXEgeR0.png);
+				table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url(http://i.imgur.com/flwWHPQ.png) ; }
+.wall          { background-image: url(http://i.imgur.com/llxK6qE.png);   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(http://i.imgur.com/DURlhSm.png); }
+.player { background-image:url(http://i.imgur.com/DxCd3I8.png); }
+.onion  { background-image: url(http://i.imgur.com/EZiF6c7.png);  }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url(http://i.imgur.com/2rTTBnX.png);
+}
+.won .player { background-image: url(http://i.imgur.com/qPwcjd3.png);
+}
+
